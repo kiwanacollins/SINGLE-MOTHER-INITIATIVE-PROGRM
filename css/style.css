@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #c81ee6;
-    --secondary: #FFF0E6;
+    --primary: #B22226;
+    --secondary: #FBE9EA;
     --light: #F8F8F9;
-    --dark: #001D23;
+    --dark: #160D0E;
 }
 
 .back-to-top {
@@ -148,7 +148,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(0, 29, 35, .8);
+    background: rgba(22, 13, 14, .78);
     z-index: 1;
 }
 
@@ -183,7 +183,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(22, 13, 14, .78), rgba(22, 13, 14, .78)), url(../img/community-gathering-tree.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -250,7 +250,7 @@
 
 /*** Donate ***/
 .donate {
-    background: rgba(0, 29, 35, .8);
+    background: rgba(22, 13, 14, .78);
 }
 
 .btn-group .btn-light:hover,
@@ -778,3 +778,140 @@
   }
 
 /* heart beat End */
+
+
+/*** SMIP ***/
+.navbar-brand img.brand-logo {
+    height: 64px;
+    width: auto;
+}
+
+.navbar-brand .brand-name {
+    line-height: 1;
+}
+
+.navbar-brand .brand-name small {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand img.brand-logo {
+        height: 48px;
+    }
+
+    .navbar-brand .brand-name small {
+        font-size: 11px;
+    }
+}
+
+#header-carousel .carousel-item img {
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.causes-item .program-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.value-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    transition: .5s;
+}
+
+.value-item:hover {
+    background: var(--primary) !important;
+}
+
+.value-item:hover * {
+    color: #FFFFFF !important;
+}
+
+.value-item .value-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.need-list li {
+    padding: 6px 0;
+}
+
+.need-list li i {
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.08);
+}
+
+.gallery-item .gallery-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    background: linear-gradient(to top, rgba(22, 13, 14, .8), rgba(22, 13, 14, 0) 60%);
+    color: #FFFFFF;
+    opacity: 0;
+    transition: .5s;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.contact-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+}
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, .92);
+}
+
+.lightbox.open {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 100%;
+    max-height: 85vh;
+    animation: zoom .4s;
+}
+
+.lightbox .lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 40px;
+    line-height: 1;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}

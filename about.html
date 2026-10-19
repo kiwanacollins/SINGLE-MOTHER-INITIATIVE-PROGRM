@@ -3,18 +3,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Dare For The Future Initiative</title>
+    <title>About Us | Single Mothers Initiative Program (SMIP)</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="single mothers, SMIP, emergency assistance, displaced mothers, women empowerment, community based organisation" name="keywords">
+    <meta content="Learn about SMIP, our mission, vision and the core values that guide our work with single mothers." name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -29,92 +31,41 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-  
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" role="status"></div>
-    </div>
-    <!-- Spinner End -->
-
-
     <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>    Nasser road, Kampala, Uganda</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@DareForTheFutureInitiative.com</small>
+                <small><i class="fa fa-phone-alt me-2"></i>+256 774 369 975</small>
+                <small class="ms-4"><i class="fab fa-whatsapp me-2"></i><a class="text-white-50" href="https://wa.me/256774369975" target="_blank" rel="noopener">Chat with us on WhatsApp</a></small>
             </div>
             <div class="col-lg-6 px-5 text-end">
-                <small>Follow us:</small>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
+                <small><i class="fa fa-heart text-primary me-2"></i>Supporting single mothers and their children since 2024</small>
             </div>
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-primary m-0" translate="no"> Dare For The Future <br><span style="color: #c81ee6">Initiative <img src="img/company_logo.png" alt="" style="width: 6rem; margin-bottom: -50px; margin-top: -70px;"></span></h1>
+            <a href="index.html" class="navbar-brand d-flex align-items-center ms-4 ms-lg-0">
+                <img class="brand-logo me-2" src="img/smip-logo.png" alt="SMIP logo">
+                <h1 class="brand-name fw-bold text-primary m-0" translate="no">SMIP<small>Single Mothers Initiative Program</small></h1>
             </a>
-            
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="blog.html" class="nav-item nav-link">Blog</a>
-                   
+                    <a href="programs.html" class="nav-item nav-link">Programs</a>
+                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
-
-                    
-
-                    <select  class="nav-item nav-link" id="targetLang" style="background-color: transparent; border: none; font-weight: 600; color: orange; outline: none;">
-                        <option selected value="EN-GB">English</option>
-                        <option value="NB">Norsk (Bokmål)</option>
-                        <option value="FI">Suomi</option>
-                        <option value="ES">Español</option>
-                        <option value="FR">Français</option>
-                        <option value="IT">Italiano</option>
-                        <option value="NL">Nederlands</option>
-                        <option value="BG">Български</option>
-                        <option value="CS">Čeština</option>
-                        <option value="DA">Dansk</option>
-                        <option value="DE">Deutsch</option>
-                        <option value="PT-BR">Português (Brasileiro)</option>
-                        <option value="PT-PT">Português (Europeu)</option>
-                        <option value="RO">Română</option>
-                        <option value="SK">Slovenčina</option>
-                        <option value="SL">Slovenščina</option>
-                        <option value="SV">Svenska</option>
-                        <option value="TR">Türkçe</option>
-                        <option value="EL">Ελληνικά</option>
-                        <option value="ET">Eesti</option>
-                        <option value="HU">Magyar</option>
-                        <option value="ID">Bahasa Indonesia</option>
-                        <option value="JA">日本語</option>
-                        <option value="KO">한국어</option>
-                        <option value="LT">Lietuvių</option>
-                        <option value="LV">Latviešu</option>
-                        <option value="PL">Polski</option>
-                        <option value="RU">Русский</option>
-                        <option value="UK">Українська</option>
-                        <option value="ZH">简体中文</option>
-                        
-                    </select>
-
-               
-
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                       <a class="btn btn-outline-primary py-2 px-3" href="./donate.html">
-                        Donate Now
+                    <a class="btn btn-outline-primary py-2 px-3" href="contact.html">
+                        Support Us
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
@@ -129,11 +80,10 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-5">About Us</h1>
+            <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">About Us</li>
                 </ol>
             </nav>
@@ -142,195 +92,260 @@
     <!-- Page Header End -->
 
 
- <!-- Mission and Vision Start -->
- <div class="container-xxl py-5" style="font-size: 18px;">
-    <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-5">Mission and Vision</div>
-            <h1 class="display-6 mb-5">Vision</h1>
-            <p class="lead mb-5">At Dare For The Future Initiative, we envision a world where every child, regardless of their circumstances, has access to quality education that empowers them to reach their full potential. We see education as the cornerstone of resilient communities, fostering gender equality, and comprehensive development for women. Our vision is a future where education serves as the foundation for empowered individuals and thriving societies, creating a brighter, more inclusive world for all.</p>
-            <h1 class="display-6 mb-5">Mission</h1>
-            <p class="lead mb-5">Dare For The Future Initiative was established with an unwavering commitment to promote education for all, irrespective of any challenges or barriers they face. Our mission is to dismantle the obstacles that prevent access to education in vulnerable and crisis-impacted regions, focusing on areas affected by civil, climate, and economic crises. We prioritize marginalized groups, particularly girls and persons with disabilities, ensuring their inclusion in educational opportunities. Recognizing that crises often delay traditional learning, we actively promote adult education to bridge gaps and foster skill development.</p>
-            <p class="lead mb-5">We are dedicated to addressing profound educational challenges through strategic advocacy, transformative training workshops, community dialogues, sensitization efforts, and collaborative partnerships with local and international communities. Our holistic approach aims to meet immediate educational needs while contributing to broader community development, reflecting our dedication to making education accessible and sustainable.</p>
-            <p class="lead mb-5">As catalysts for positive change, we strive to empower individuals in crisis-affected areas by providing the tools, resources, and opportunities necessary to build a brighter and more resilient future. We believe in the transformative power of education to rebuild societies affected by vulnerability and crises, ensuring that education is never a casualty of adversity. Our steadfast commitment is to contribute to the resilience and development of these communities, creating a world where education paves the way for equity, empowerment, and sustainable growth.</p>
-            <p class="lead mb-5">In essence, Dare For The Future Initiative is committed to advocating for inclusive, safe, and quality education for all, upholding human rights, and working within juridical laws to create lasting change. Our mission extends beyond education, as we strive to empower women and foster community development through educational initiatives, nurturing an environment where equity and sustainability flourish.</p>
-        </div>
-        <h1 class="display-6 mb-5 text-center wow fadeInUp" data-wow-delay="0.1s">Goals</h1>
-        <div class="row g-4 justify-content-center">
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Universal Access</h4>
-                    <p class="mb-5">Objective: Ensure that every child has access to quality education, regardless of geographic, economic, or social barriers.</p>
-                    <ul class="text-start mb-5">
-                        <li>Build and renovate schools in underserved areas.</li>
-                        <li>Provide scholarships and financial aid to students from low-income families.</li>
-                        <li>Implement distance learning programs using digital platforms for remote areas.</li>
-                    </ul>
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/smip-group-1.jpg"
+                            alt="SMIP members meeting in the community" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/smip-logo.png"
+                            alt="SMIP logo" style="width: 200px; height: 200px; object-fit: contain;">
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Gender Equality</h4>
-                    <p class="mb-5">Objective: Promote gender equality in education by supporting girls and addressing cultural norms that hinder their learning opportunities.</p>
-                    <ul class="text-start mb-5">
-                        <li>Launch awareness campaigns to change cultural perceptions and promote the importance of girls' education.</li>
-                        <li>Establish mentorship programs for girls, pairing them with successful female role models.</li>
-                        <li>Provide sanitary products and facilities to manage menstruation, reducing absenteeism among girls.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Inclusive Education</h4>
-                    <p class="mb-5">Objective: Develop programs that support children with disabilities, ensuring their inclusion in mainstream education.</p>
-                    <ul class="text-start mb-5">
-                        <li>Train teachers in inclusive education practices and provide them with necessary resources.</li>
-                        <li>Adapt school infrastructures to be accessible to children with disabilities.</li>
-                        <li>Develop and distribute learning materials tailored to the needs of children with disabilities.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Community Empowerment</h4>
-                    <p class="mb-5">Objective: Engage and empower local communities to take ownership of educational initiatives, fostering sustainable development and resilience.</p>
-                    <ul class="text-start mb-5">
-                        <li>Form community education committees to oversee and support local educational projects.</li>
-                        <li>Offer workshops and training sessions for parents and community leaders on the value of education.</li>
-                        <li>Develop community-led monitoring and evaluation frameworks to ensure accountability and sustainability.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.9s">
-                <div class="bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Women's Empowerment and Education</h4>
-                    <p class="mb-5">Objective: Integrate women's empowerment into the educational system, with a focus on menstrual health management and broader educational challenges.</p>
-                    <ul class="text-start mb-5">
-                        <li>Develop and implement comprehensive menstrual health education programs in schools.</li>
-                        <li>Provide access to sanitary products and create safe, private spaces for girls to manage menstruation.</li>
-                        <li>Address the stigma associated with menstruation through community workshops and educational campaigns.</li>
-                        <li>Advocate for policies that support women's education and health rights.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <h1 class="display-6 mb-5 text-center wow fadeInUp" data-wow-delay="1.1s">Addressing Challenges and Solutions</h1>
-        <div class="row g-4 justify-content-center">
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="1.1s">
-                <div class="bg-white text-start h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Challenge: Cultural resistance to girls' education.</h4>
-                    <p class="mb-5">Solution: Engage with community leaders and influencers to advocate for the benefits of girls' education and address misconceptions.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="1.3s">
-                <div class="bg-white text-start h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Challenge: Lack of infrastructure and resources in remote areas.</h4>
-                    <p class="mb-5">Solution: Partner with local and international organizations to fund and build educational facilities, and utilize mobile and digital learning platforms to reach remote students.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="1.5s">
-                <div class="bg-white text-start h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Challenge: Insufficient teacher training and support.</h4>
-                    <p class="mb-5">Solution: Develop comprehensive teacher training programs focused on inclusive education, gender sensitivity, and innovative teaching methods.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="1.7s">
-                <div class="bg-white text-start h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Challenge: High dropout rates due to economic pressures.</h4>
-                    <p class="mb-5">Solution: Provide financial incentives, scholarships, and vocational training programs</p>
-                </div>
-            </div>
-            <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="1.9s">
-                <div class="bg-white text-start h-100 p-4 p-xl-5">
-                    <h4 class="mb-5">Challenge: Limited access to menstrual health education and products.</h4>
-                    <p class="mb-5">Solution: Implement comprehensive menstrual health education programs in schools, provide access to sanitary products, and create safe, private spaces</p>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
+                        <h1 class="display-6 mb-5">A Community-Based Program For Single Mothers And Vulnerable Families</h1>
+                        <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <p class="mb-3">The Single Mothers Initiative Program (SMIP) is a community-based project designed to empower and support single mothers facing economic, social and family-related challenges.</p>
+                            <hr>
+                            <p class="mb-0">SMIP provides targeted emergency assistance to vulnerable single mothers and their children during periods of crisis, and walks with them as they rebuild their lives. Founded in 2024, SMIP serves single mothers and vulnerable people, including mothers who have been displaced by war and whose homes and property have been destroyed.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Mission and Vision End -->          
+    <!-- About End -->
+
+
+    <!-- Mission and Vision Start -->
+    <div class="container-xxl bg-light my-5 py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Mission and Vision</div>
+                <h1 class="display-6 mb-5">Why We Exist</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5 border-top border-5 border-primary">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-bullseye fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Our Mission</h4>
+                        <p class="lead mb-0">To provide timely emergency support, protection, and empowerment to single mothers and their children during crisis, helping them meet basic needs, regain stability, and build resilient, independent lives.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5 border-top border-5 border-primary">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-eye fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Our Vision</h4>
+                        <p class="lead mb-0">A society where every single mother and her children live with dignity, security, opportunity and hope for a better future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mission and Vision End -->
+
+
+    <!-- Core Values Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Core Values</div>
+                <h1 class="display-6 mb-5">The Values That Guide Everything We Do</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-user-shield fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Dignity</h4>
+                        <p class="mb-0">We treat every mother and child with respect and honour their worth.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-seedling fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Empowerment</h4>
+                        <p class="mb-0">We equip mothers with the skills and confidence to stand on their own.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-heart fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Compassion</h4>
+                        <p class="mb-0">We respond to every need with kindness, patience and care.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-balance-scale fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Integrity</h4>
+                        <p class="mb-0">We are honest, transparent and accountable in all we do.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-equals fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Equality</h4>
+                        <p class="mb-0">Every mother deserves equal access to support and opportunity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-mountain fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Resilience</h4>
+                        <p class="mb-0">We help families recover from crisis and grow stronger.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="value-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="value-icon d-inline-flex align-items-center justify-content-center bg-secondary rounded-circle mb-4">
+                            <i class="fa fa-shield-alt fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Protection</h4>
+                        <p class="mb-0">We put the safety and wellbeing of mothers and children first.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Core Values End -->
+
+
+    <!-- Emergency Component Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded w-100" src="img/women-carrying-belongings.jpg"
+                        alt="Mothers and children carrying their belongings" style="object-fit: cover; max-height: 520px;">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Emergency Component</div>
+                    <h1 class="display-6 mb-4">Support When Mothers Need It Most</h1>
+                    <p class="mb-4">SMIP provides targeted emergency assistance to vulnerable single mothers and their
+                        children during periods of crisis. The emergency component addresses urgent needs such as:</p>
+                    <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <ul class="need-list list-unstyled row g-0 mb-0">
+                                <li class="col-sm-6"><i class="fa fa-utensils"></i>Food insecurity</li>
+                                <li class="col-sm-6"><i class="fa fa-briefcase-medical"></i>Medical emergencies</li>
+                                <li class="col-sm-6"><i class="fa fa-home"></i>Temporary shelter</li>
+                                <li class="col-sm-6"><i class="fa fa-box-open"></i>Essential household items</li>
+                                <li class="col-sm-6"><i class="fa fa-shield-alt"></i>Child protection</li>
+                                <li class="col-sm-6"><i class="fa fa-bus"></i>Transportation</li>
+                                <li class="col-sm-6"><i class="fa fa-hand-holding-usd"></i>Limited financial assistance</li>
+                            </ul>
+                    </div>
+                    <a class="btn btn-primary py-2 px-3" href="programs.html">
+                        Our Programs
+                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Emergency Component End -->
+
+
+    <!-- Get Involved Start -->
+    <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/community-gathering-tree.jpg">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Get Involved</div>
+                    <h1 class="display-6 text-white mb-5">Together We Can Give Every Mother A New Beginning</h1>
+                    <p class="text-white-50 mb-0">Many of the mothers we meet have fled conflict with nothing but their
+                        children. SMIP was founded in 2024 and is only at the beginning of its journey. Your partnership,
+                        time and support can help us reach single mothers at their most difficult moments.</p>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-white p-5">
+                        <h4 class="mb-4">How You Can Help</h4>
+                        <ul class="need-list list-unstyled mb-4">
+                            <li><i class="fa fa-handshake"></i>Partner with us as an organisation</li>
+                            <li><i class="fa fa-hands-helping"></i>Volunteer your time and skills</li>
+                            <li><i class="fa fa-hand-holding-heart"></i>Support our emergency assistance</li>
+                            <li><i class="fa fa-bullhorn"></i>Speak up and share the story of single mothers</li>
+                        </ul>
+                        <a class="btn btn-primary py-2 px-3" href="contact.html">
+                            Contact Us
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Get Involved End -->
+
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4">Dare For The Future <span
-                            style="color: #c81ee6">Initiative</span></h1>
-                    <p>Dare For The Future Initiative is committed to advocating for inclusive, safe,
-                        and quality education for all, upholding human rights, and working within juridical laws
-                        to create lasting change. </p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><lord-icon src="https://cdn.lordicon.com/tvdywkru.json"
-                                trigger="loop" delay="1000" stroke="bold" state="hover-draw"
-                                style="width:30px;height:30px">
-                            </lord-icon></a>
-                        <a class="btn btn-square me-1" href=""><lord-icon src="https://cdn.lordicon.com/onuqjryb.json"
-                                trigger="loop" delay="2500" stroke="bold" state="morph-logotype"
-                                style="width:250px;height:250px">
-                            </lord-icon></a>
-                        <a class="btn btn-square me-1" href=""><lord-icon src="https://cdn.lordicon.com/njdhzovn.json"
-                                trigger="loop" delay="1500" stroke="bold" state="hover-dots"
-                                style="width:30px;height:30px">
-                            </lord-icon></a>
-                        <a class="btn btn-square me-0" href=""><lord-icon src="https://cdn.lordicon.com/sjpyphsk.json"
-                                trigger="loop" delay="2000" stroke="bold" style="width:30px;height:30px">
-                            </lord-icon></a>
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="img/smip-logo.png" alt="SMIP logo" style="height: 70px;" class="me-3">
+                        <h1 class="fw-bold text-primary m-0" translate="no">SMIP</h1>
                     </div>
+                    <p>The Single Mothers Initiative Program is a community-based organisation that provides timely
+                        emergency support, protection and empowerment to single mothers and their children in times
+                        of crisis.</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p>
-                        <lord-icon src="https://cdn.lordicon.com/cjhlqtae.json" trigger="loop" delay="500"
-                            style="width:30px;height:30px; margin-bottom: -7px;">
-                        </lord-icon>
-                        </lord-icon>
-                        Nasser Road, Kampala Uganda
-                    </p>
-                    <p>
-                        <lord-icon src="https://cdn.lordicon.com/qeltvbrs.json" trigger="loop" delay="2000" stroke="bold"
-                            style="width:26px;height:26px; margin-bottom: -7px;">
-                        </lord-icon>+012 345 67890
-                    </p>
-                    <p> <lord-icon src="https://cdn.lordicon.com/ukwexxlc.json" trigger="loop" delay="1000"
-                            style="width:30px;height:30px; margin-bottom: -7px;"> </lord-icon>
-                        info@example.com</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <h5 class="text-light mb-4">Quick Links</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                    
-                        <a class="btn btn-link" href="./terms_and_coditions.html">Terms & Condition</a>
-
-                    <a class="btn btn-link" href="./donate.html">Support</a>
+                    <h5 class="text-light mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-phone-alt text-primary me-3"></i><a class="text-white-50" href="tel:+256774369975">+256 774 369 975</a></p>
+                    <p><i class="fab fa-whatsapp text-primary me-3"></i><a class="text-white-50" href="https://wa.me/256774369975" target="_blank" rel="noopener">Chat with us on WhatsApp</a></p>
                 </div>
-
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="programs.html">Our Programs</a>
+                    <a class="btn btn-link" href="gallery.html">Gallery</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
             </div>
         </div>
-       <div class="container-fluid copyright">
+        <div class="container-fluid copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center text-md-center mb-3 mb-md-0">
-                        <a href="#" translate="no" class="heartbeat-link">Dare For The Future Initiative <img src="img/company_logo.png"
-                                                        style="width: 60px; margin-top: -10px;" alt="">
-                        </a> <p style="margin-left: -80px;">&copy 2024 All Rights Reserved</p>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-
-
+                    <div class="col-md-12 text-center mb-3 mb-md-0">
+                        <a href="index.html" translate="no" class="heartbeat-link mb-2">
+                            <img src="img/smip-logo.png" style="width: 50px;" alt="SMIP logo">
+                        </a>
+                        <p class="mb-0">&copy; 2026 Single Mothers Initiative Program (SMIP). All Rights Reserved | Made by
+                            <a href="https://kicowebdesign.com/" target="_blank" rel="noopener noreferrer">Kico Web Design</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
+
+
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
-
-
-    <!-- Back to Top -->
-  
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
