@@ -223,7 +223,7 @@
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
-    color: #999999;
+    color: #FFFFFF;
 }
 
 
@@ -447,7 +447,7 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -458,7 +458,7 @@
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
     margin-right: 10px;
 }
 
@@ -469,8 +469,8 @@
 }
 
 .footer .btn.btn-square {
-    color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .footer .btn.btn-square:hover {
@@ -775,4 +775,32 @@
     .navbar-toggler {
         margin-right: 1rem !important;
     }
+}
+
+
+/*** Uniform text colours: solid, no faded/overlay look ***/
+body {
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: var(--dark);
+}
+
+.text-white,
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6,
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
+    color: #FFFFFF !important;
+}
+
+/* Navbar sits on a dark image: keep link text solid white, mark the current page with an underline */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #FFFFFF;
+    box-shadow: inset 0 -3px 0 var(--primary);
+}
+
+.navbar .btn.btn-outline-primary {
+    color: #FFFFFF;
 }
