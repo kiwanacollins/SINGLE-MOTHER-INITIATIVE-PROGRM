@@ -804,3 +804,57 @@ h1, h2, h3, h4, h5, h6,
 .navbar .btn.btn-outline-primary {
     color: #FFFFFF;
 }
+
+
+/*** Stats & steps ***/
+.stat-item {
+    padding: 24px 12px;
+    background: #FFFFFF;
+    border-bottom: 5px solid var(--primary);
+    border-radius: 6px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    height: 100%;
+}
+
+.stat-number {
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    color: var(--primary);
+}
+
+.stat-label {
+    margin-top: 6px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.step-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    border-radius: 0 0 6px 6px;
+}
+
+.step-number {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #FFFFFF;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary);
+    background: var(--secondary);
+}
+
+.accordion-button:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 .2rem rgba(178, 34, 38, .2);
+}
