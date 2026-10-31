@@ -88,6 +88,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const message = document.getElementById('message').value.trim();
         const text = 'Hello SMIP, my name is ' + name + '.\n' +
             (subject ? 'Subject: ' + subject + '\n' : '') + '\n' + message;
-        window.open('https://wa.me/256774369975?text=' + encodeURIComponent(text), '_blank');
+        window.open('https://wa.me/256786077561?text=' + encodeURIComponent(text), '_blank');
     });
 });
